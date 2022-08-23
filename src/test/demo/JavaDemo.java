@@ -37,7 +37,7 @@ public class JavaDemo {
         int max0 = x0 > y ? (x0 > z ? x0:z) : (y > z ? y: z);
         System.out.println(max0);
 
-
+        // git 初始
     }
 }
 
