@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+echo $0
+
+if [ $# -ne 1 ]; then
+  echo "输入参数个数：$#,应该输入个数为1个"
+fi
+
+#echo $?
+#if  [ "$1x" -eq 2 ]; then
+#	echo "=2"
+#elif [ "$1x" -eq 4 ]; then
+#	echo "=3"
+#else echo other
+#fi
+
+case $1 in
+[123])
+        echo "banzhang"
+;;
+
+"3")
+        echo "cls"
+;;
+*)
+        echo "renyao"
+;;
+esac
