@@ -25,3 +25,5 @@ case $1 in
         echo "renyao"
 ;;
 esac
+
+echo end!
